@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/355cf2b1-06f6-46ad-81ed-5cb199661ccc/files/38a14f1a-01b8-4a6d-9473-0c3b3f155586.jpg',
+  'https://cdn.poehali.dev/projects/355cf2b1-06f6-46ad-81ed-5cb199661ccc/files/67ba87a7-28f9-48c0-9b04-1ee53bbe5c1b.jpg',
+  'https://cdn.poehali.dev/projects/355cf2b1-06f6-46ad-81ed-5cb199661ccc/files/e9b7a72b-ed71-4259-9f01-841101c05b3c.jpg',
+  'https://cdn.poehali.dev/projects/355cf2b1-06f6-46ad-81ed-5cb199661ccc/files/f074a8e1-12d9-482f-aca1-9027a66a5297.jpg',
 ];
 
 export default function HeroSection() {
@@ -55,8 +55,8 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                  alt="Креативный специалист"
+                  src="https://cdn.poehali.dev/projects/355cf2b1-06f6-46ad-81ed-5cb199661ccc/files/395255ff-9a45-4c70-b97b-d0679eb0dbff.jpg"
+                  alt="Архитектор"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -73,8 +73,25 @@ export default function HeroSection() {
                   Алексей Иванов
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Архитектор | Авторское проектирование
                 </p>
+                <p className="max-w-lg text-base font-light text-white/60 md:text-lg">
+                  Создаю пространства, которые вдохновляют. Жилые дома, коммерческие объекты и частные резиденции — от концепции до реализации.
+                </p>
+                <div className="flex gap-4 pt-2">
+                  <a
+                    href="#projects"
+                    className="inline-block border border-white px-6 py-2 text-sm font-light text-white transition-all hover:bg-white hover:text-black"
+                  >
+                    Смотреть проекты
+                  </a>
+                  <a
+                    href="#contact"
+                    className="inline-block border border-white/40 px-6 py-2 text-sm font-light text-white/70 transition-all hover:border-white hover:text-white"
+                  >
+                    Связаться
+                  </a>
+                </div>
                 <div className="flex gap-6 pt-4">
                   <a
                     href="https://t.me/"
